@@ -1,0 +1,148 @@
+[
+  {
+    "id": 1,
+    "description": "Mande 10 mensagens em qualquer canal",
+    "descriptionEn": "Send 10 messages in any channel",
+    "type": "send_messages",
+    "target": 10,
+    "xpReward": 100,
+    "coinReward": 50,
+    "itemRewardId": null,
+    "requiredPlan": "hsbc",
+    "active": true,
+    "seasonal": false
+  },
+  {
+    "id": 2,
+    "description": "Fique 30 minutos em canal de voz",
+    "descriptionEn": "Spend 30 minutes in a voice channel",
+    "type": "voice_minutes",
+    "target": 30,
+    "xpReward": 150,
+    "coinReward": 75,
+    "itemRewardId": null,
+    "requiredPlan": "hsbc",
+    "active": true,
+    "seasonal": false
+  },
+  {
+    "id": 3,
+    "description": "Compre um item na loja diária",
+    "descriptionEn": "Buy an item from the daily shop",
+    "type": "buy_item",
+    "target": 1,
+    "xpReward": 200,
+    "coinReward": 100,
+    "itemRewardId": null,
+    "requiredPlan": "barclays",
+    "active": true,
+    "seasonal": false
+  },
+  {
+    "id": 4,
+    "description": "Missão Pro — mande 100 mensagens",
+    "descriptionEn": "Pro Mission — send 100 messages",
+    "type": "send_messages",
+    "target": 100,
+    "xpReward": 600,
+    "coinReward": 300,
+    "itemRewardId": null,
+    "requiredPlan": "deutsche",
+    "active": true,
+    "seasonal": false
+  },
+  {
+    "id": 5,
+    "description": "Missão Elite — fique 2h em voz e mande 200 mensagens",
+    "descriptionEn": "Elite Mission — spend 2h in voice and send 200 messages",
+    "type": "send_messages",
+    "target": 200,
+    "xpReward": 1500,
+    "coinReward": 750,
+    "itemRewardId": null,
+    "requiredPlan": "ubs",
+    "active": true,
+    "seasonal": false
+  },
+  {
+    "id": 6,
+    "description": "Espalhe o espírito natalino, diga 'Feliz Natal!'",
+    "descriptionEn": "Spread the Christmas spirit, say 'Merry Christmas!'",
+    "type": "send_specific_message",
+    "target": 5,
+    "xpReward": 300,
+    "coinReward": 150,
+    "itemRewardId": null,
+    "requiredPlan": "hsbc",
+    "active": true,
+    "seasonal": true,
+    "season": "christmas",
+    "specificConfig": {
+      "message": "feliz natal",
+      "messageEn": "merry christmas",
+      "caseSensitive": false
+    }
+  },
+  {
+    "id": 7,
+    "description": "Reaja a uma mensagem com um emoji personalizado",
+    "descriptionEn": "React to a message with a custom emoji",
+    "type": "react_message",
+    "target": 3,
+    "xpReward": 100,
+    "coinReward": 50,
+    "itemRewardId": null,
+    "requiredPlan": "barclays",
+    "active": true,
+    "seasonal": false
+  },
+  {
+    "id": 8,
+    "description": "Envie um emoji em uma mensagem",
+    "descriptionEn": "Send an emoji in a message",
+    "type": "send_emoji",
+    "target": 10,
+    "xpReward": 150,
+    "coinReward": 75,
+    "itemRewardId": null,
+    "requiredPlan": "barclays",
+    "active": true,
+    "seasonal": false
+  },
+  {
+    "id": 9,
+    "description": "Cumprimente o bot! Digite 'olá bot'",
+    "descriptionEn": "Greet the bot! Type 'hello bot'",
+    "type": "send_specific_message",
+    "target": 2,
+    "xpReward": 50,
+    "coinReward": 25,
+    "itemRewardId": null,
+    "requiredPlan": "hsbc",
+    "active": false,
+    "seasonal": false,
+    "specificConfig": {
+      "message": "olá bot",
+      "messageEn": "hello bot",
+      "caseSensitive": false
+    }
+  },
+  {
+    "id": 10,
+    "description": "Diga algo positivo! ('incrível', 'ótimo', 'legal')",
+    "descriptionEn": "Say something positive! ('amazing', 'awesome', 'cool')",
+    "type": "send_specific_message",
+    "target": 3,
+    "xpReward": 100,
+    "coinReward": 50,
+    "itemRewardId": null,
+    "requiredPlan": "barclays",
+    "active": false,
+    "seasonal": false,
+    "specificConfig": {
+      "message": "incrível|ótimo|legal|bom",
+      "messageEn": "amazing|awesome|cool|good",
+      "caseSensitive": false
+    }
+  }
+]

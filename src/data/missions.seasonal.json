@@ -1,0 +1,58 @@
+[
+  {
+    "id": 101,
+    "season": "halloween",
+    "description": "Mande 31 mensagens — truco ou travessura! 🎃",
+    "descriptionEn": "Send 31 messages — trick or treat! 🎃",
+    "type": "send_messages",
+    "target": 31,
+    "xpReward": 666,
+    "coinReward": 200,
+    "itemRewardId": null,
+    "requiredPlan": "hsbc",
+    "active": true,
+    "seasonal": true
+  },
+  {
+    "id": 102,
+    "season": "christmas",
+    "description": "Passe 60 minutos em voz — celebre com a galera! 🎄",
+    "descriptionEn": "Spend 60 minutes in voice — celebrate with friends! 🎄",
+    "type": "voice_minutes",
+    "target": 60,
+    "xpReward": 1200,
+    "coinReward": 400,
+    "itemRewardId": null,
+    "requiredPlan": "hsbc",
+    "active": true,
+    "seasonal": true
+  },
+  {
+    "id": 103,
+    "season": "carnival",
+    "description": "Mande 100 mensagens — caia no samba! 🎉",
+    "descriptionEn": "Send 100 messages — carnival time! 🎉",
+    "type": "send_messages",
+    "target": 100,
+    "xpReward": 777,
+    "coinReward": 300,
+    "itemRewardId": null,
+    "requiredPlan": "hsbc",
+    "active": true,
+    "seasonal": true
+  },
+  {
+    "id": 104,
+    "season": "easter",
+    "description": "Fique 45 minutos em voz 🐣",
+    "descriptionEn": "Spend 45 minutes in voice 🐣",
+    "type": "voice_minutes",
+    "target": 45,
+    "xpReward": 500,
+    "coinReward": 150,
+    "itemRewardId": null,
+    "requiredPlan": "hsbc",
+    "active": true,
+    "seasonal": true
+  }
+]

@@ -1,0 +1,447 @@
+{
+  "how_to_use": "Como usar",
+  "how_to_collect": "Como coletar",
+  "mission.description": "Complete missões diárias para ganhar XP e coins! Use `/mission` para ver suas missões atuais e coletar recompensas.",
+  "mission.refresh_at_midnight": "As missões são atualizadas diariamente à 00:00 (UTC).",
+  "profile.edit.help": [
+    "`/profile-edit bio <texto>` — mudar bio",
+    "`/profile-edit badge add <id>` — equipar badge",
+    "`/profile-edit badge remove <id>` — remover badge",
+    "`/profile-edit wallpaper <id>` — mudar wallpaper",
+    "`/profile-edit color <id>` — mudar cor do layout"
+  ],
+  "plan": "Plano",
+  "userinfo.account.discord": "Tempo de conta do Discord",
+  "userinfo.account.created": "Tempo desde que você começou a usar o BankBot",
+  "userinfo.account.joined": "Tempo desde que você entrou neste servidor",
+  "userinfo.level": "Nível",
+  "userinfo.xp": "XP",
+  "daily.claimed": "Você já coletou sua recompensa diária hoje!",
+  "daily.message": "Você resgatou **{coins}** BankCoins hoje{rank_condition}! Volte amanhã para coletar novamente.",
+  "daily.rank_condition": " e agora está classificado como **#{userRank}** globalmente",
+  "daily.success": "Recompensa diária coletada com sucesso!",
+  "daily.claimed.ammount": "BankCoins coletados hoje",
+  "daily.footer": "Seja mais ativo durante o dia para ganhar mais BankCoins!",
+  "shop.no_items": "A loja está vazia no momento.",
+  "shop.bought": "Item comprado com sucesso!",
+  "shop.no_coins": "Coins insuficientes.",
+  "shop.owned": "Você já possui este item.",
+  "shop.not_available": "Item não está disponível na loja hoje.",
+  "shop.not_buyable": "Este item não pode ser comprado.",
+  "mission.complete": "Missão concluída! Recompensa coletada.",
+  "mission.none": "Nenhuma missão disponível para você hoje.",
+  "mission.already_complete": "Você já coletou a recompensa desta missão.",
+  "mission.reset_success": "Missão reiniciada com sucesso!",
+  "mission.no_resets": "Você não tem mais resets disponíveis hoje.",
+  "mission.not_complete": "Missão ainda não concluída.",
+  "mission.extra_no_coins": "Coins insuficientes para comprar mais missões.",
+  "mission.extra_unlocked": "+3 missões desbloqueadas!",
+  "mission.completed": "🎉 {user} completou a missão: **{mission}** e ganhou **{xp} XP** e **{coins} 🪙**!",
+  "mission.channel.set": "Canal de notificação de missões definido com sucesso!",
+  "mission.channel.removed": "Canal de notificação de missões removido.",
+  "xp.validation.cooldown": "Aguarde um pouco antes de ganhar XP novamente.",
+  "xp.validation.min_length": "Sua mensagem é muito curta para ganhar XP.",
+  "xp.validation.repetition": "Você está enviando mensagens repetidas. Varie suas mensagens.",
+  "profile.no_data": "Perfil não encontrado.",
+  "profile.generating": "Gerando seu card de perfil...",
+  "privacy.not_accepted": "Você precisa aceitar a política de privacidade. Use /privacy.",
+  "privacy.accepted": "Política aceita! Bem-vindo ao BankBot 🏦",
+  "privacy.declined": "Você recusou a política. Não será possível usar o bot.",
+  "ping.ws": "WebSocket",
+  "ping.api": "API",
+  "ping.db": "Banco de dados",
+  "level.up": "subiu para o nível",
+  "currency.created": "Moeda criada com sucesso!",
+  "currency.emoji_full": "Slots de emoji cheios! Você pode adicionar o emoji depois com /currency-edit.",
+  "plan.required": "Seu plano não permite esta ação. Faça upgrade para continuar.",
+  "error.generic": "Ocorreu um erro. Tente novamente.",
+  "error.no_permission": "Você não tem permissão para usar este comando.",
+  "delete.confirm": "Tem certeza? Esta ação é irreversível.",
+  "delete.success": "Seus dados foram removidos do BankBot.",
+  "exchange.rate": "Taxa de câmbio",
+  "exchange.from": "De",
+  "exchange.to": "Para",
+  "time.expired": "O tempo para esta ação expirou.",
+  "time.remaining": "Tempo restante",
+  "notification.new_mission": "Nova missão disponível! Use /mission para ver.",
+  "notification.daily_available": "Sua recompensa diária está disponível! Use /daily para coletar.",
+  "notification.shop_updated": "A loja foi atualizada! Use /shop para ver os novos itens.",
+  "notification.mission_reset": "Suas missões foram reiniciadas! Use /mission para ver as novas missões.",
+  "notification.level_up": "Parabéns! Você subiu para o nível {level}!",
+  "notification.currency_created": "Nova moeda criada: {name} ({emoji})",
+  "notification.currency_deleted": "Moeda deletada: {name}",
+  "notification.currency_updated": "Moeda atualizada: {name} ({emoji})",
+  "notification.plan_upgraded": "Plano atualizado para {plan}!",
+  "notification.plan_downgraded": "Plano rebaixado para {plan}.",
+  "notification.privacy_accepted": "Política de privacidade aceita por {user}.",
+  "notification.privacy_declined": "Política de privacidade recusada por {user}.",
+  "notification.error_occurred": "Ocorreu um erro: {error}",
+  "notification.unknown_command": "Comando desconhecido: {command}",
+  "notification.missing_arguments": "Argumentos faltando para o comando: {command}",
+  "notification.invalid_arguments": "Argumentos inválidos para o comando: {command}",
+  "notification.permission_denied": "Permissão negada para o comando: {command}",
+  "notification.action_success": "Ação realizada com sucesso: {action}",
+  "notification.action_failed": "Ação falhou: {action}",
+  "notification.data_deleted": "Dados deletados para {user}.",
+  "command.description.daily": "💰 Coleta sua recompensa diária.",
+  "command.description.shop": "🛍️ Veja os itens disponíveis na loja.",
+  "command.description.mission": "🎯 Veja suas missões diárias e colete recompensas.",
+  "command.description.mission-rank": "📊 Veja seu ranking de conclusão de missões.",
+  "command.description.profile": "👤 Veja seu perfil e estatísticas.",
+  "command.description.privacy": "🔒 Aceite ou recuse a política de privacidade.",
+  "command.description.ping": "🏓 Verifique a latência do bot.",
+  "command.description.level": "📈 Verifique seu nível atual e progresso.",
+  "command.description.currency": "💵 Gerencie suas moedas personalizadas.",
+  "command.description.plan": "👑 Veja ou atualize seu plano de assinatura.",
+  "command.description.delete": "🗑️ Delete seus dados do BankBot.",
+  "command.description.exchange": "💱 Troque moedas personalizadas entre si.",
+  "command.description.leaderboard": "🏆 Veja o ranking dos melhores jogadores.",
+  "command.description.currency-info": "💵 Veja informações sobre moedas do servidor.",
+  "command.description.rank": "📈 Verifique seu nível atual e XP.",
+  "command.description.xp-rank": "⭐ Veja o ranking de XP neste servidor.",
+  "command.description.profile-edit": "✏️ Edite seu perfil (bio, badges, wallpaper).",
+  "command.description.userinfo": "ℹ️ Veja informações detalhadas sobre um usuário.",
+  "command.description.inventory": "🎒 Veja seus itens no inventário.",
+  "command.description.language": "🌐 Altere seu idioma preferido.",
+  "command.description.delete-data": "🗑️ Delete todos seus dados do BankBot.",
+  "command.description.serverinfo": "🏢 Veja informações sobre este servidor.",
+  "command.description.settings": "⚙️ Configure as configurações do servidor.",
+  "command.description.xp-config": "🎛️ Configure o algoritmo de XP do servidor.",
+  "command.description.ads-reload": "📢 Recarregue os anúncios.",
+  "command.description.news-add": "📰 Adicione um item de notícia.",
+  "command.description.rotate-shop": "🔄 Rotacione os itens da loja.",
+  "command.description.season-set": "🎪 Defina a estação atual.",
+  "command.description.set-premium": "👑 Defina o status premium para um usuário.",
+  "command.description.shop-add": "➕ Adicione itens à loja.",
+  "command.description.botinfo": "🤖 Veja informações sobre o BankBot.",
+  "command.description.metrics": "📊 Veja as métricas do sistema e estatísticas.",
+  "error": "Ocorreu um erro inesperado. Por favor, tente novamente.",
+  "warn": "Aviso: {message}",
+  "info": "Informação: {message}",
+  "privacy.policy.button.accept": "Aceitar",
+  "privacy.policy.button.decline": "Recusar",
+  "privacy.policy.title": "Política de Privacidade do BankBot",
+  "privacy.policy.description": [
+        "**Ao usar o BankBot, você concorda que:**",
+        "",
+        "• Coletamos seu ID do Discord, servidor, XP, moedas e histórico de ações para funcionamento do bot.",
+        "• Seus dados **nunca** são vendidos ou compartilhados com terceiros.",
+        "• Propagandas exibidas são do próprio BankBot ou de patrocinadores — nunca rastreamos cliques.",
+        "• Você pode deletar todos os seus dados a qualquer momento com `/delete-data`.",
+        "• Dados são retidos por até **30 dias** após exclusão para fins de backup, depois são apagados permanentemente.",
+        "• Ao usar qualquer comando do BankBot, você confirma ter lido e concordado com estes termos.",
+        "",
+        "**Clique em Aceitar para continuar usando o BankBot.**"
+      ],
+  "privacy.policy.accepted": "Política de privacidade aceita! Bem-vindo ao BankBot 🏦",
+  "privacy.policy.declined": "Você recusou a política de privacidade. Você não poderá usar o BankBot até aceitar a política. Use /privacy para aceitar.",
+  "privacy.policy.already_accepted": "Você já aceitou a política de privacidade. Use /privacy para ver os detalhes ou recusar.",
+  "privacy.policy.missing.acceptance": "Você precisa aceitar a política de privacidade para usar o BankBot. Use /privacy para aceitar.",
+  "profile.error.generate": "Erro ao gerar o perfil card",
+  "command.daily.reward": "Recompensa diária",
+  "command.metrics": {
+    "memory_usage": "Uso de memória",
+    "cpu_usage": "Uso de CPU",
+    "uptime": "Tempo ativo",
+    "title": "Métricas do Bot",
+    "servers": "Servidores",
+    "users": "Usuários",
+    "cores": "Cores de CPU",
+    "node_heap": "Heap do Node",
+    "footer": {
+      "true": "Mostrando: comandos mais usados",
+      "false": "Mostrando: comandos menos usados"
+    },
+    "label_top": "Mais usados",
+    "label_least": "Menos usados"
+  },
+  "command.botinfo": {
+    "title": "🤖 Informações do BankBot",
+    "version": "Versão",
+    "description": "{bot} é um bot de economia para Discord com leveling, missões, câmbio entre moedas personalizadas e perfis customizados. Use /help para ver todos os comandos disponíveis!",
+    "developer": "Desenvolvedor",
+    "created": "Criado em",
+    "plans": "Planos de Assinatura",
+    "library": "Biblioteca",
+    "language": "Linguagem",
+    "top_commands": "Comandos Mais Usados",
+    "database": "Banco de Dados",
+    "cache": "Cache",
+    "uptime": "Tempo ativo",
+    "guilds": "Servidores",
+    "users": "Usuários",
+    "commands": "Comandos",
+    "prefix": "Prefixo",
+    "no_commands": "Sem dados de uso de comandos disponíveis."
+  },
+  "command.serverinfo": {
+    "title": "🏢 Informações do Servidor",
+    "id": "🆔 ID do Servidor",
+    "owner": "👑 Dono",
+    "plan": "🏦 Plano do Dono",
+    "created": "Criado em",
+    "members": "👥 Membros",
+    "boost_level": "🚀 Nível de Boost",
+    "coin": "💰 Moeda",
+    "inflation": "📈 Inflação",
+    "exchange": "💵 Câmbio"
+  },
+  "command.xp-config": {
+    "title": "📊 Projeção de XP — Confirme o algoritmo",
+    "current_settings": "Configurações Atuais",
+    "base_xp": "XP Base",
+    "simulation": "📈 Projeção (levels 1-10)",
+    "settings": "⚙️ Configuração",
+    "note": {
+      "name": "📌 Nota",
+      "value": "Levels 11-20 seguem a mesma curva. Confirme para aplicar."
+    },
+    "buttons": {
+      "confirm": "✅ Confirmar",
+      "rejection": "❌ Cancelar"
+    },
+    "output": {
+      "updated": "✅ Algoritmo de XP atualizado!",
+      "canceled": "Cancelado."
+    },
+    "exponent": "Expoente",
+    "multiplier": "Multiplicador",
+    "preview": "Pré-visualização de Nível",
+    "set_success": "Configuração de XP atualizada com sucesso!",
+    "error": "Erro ao atualizar a configuração de XP"
+  },
+  "command.currency-info": {
+    "title": "💵 Informações da Moeda",
+    "name": "Nome",
+    "emoji": "Emoji",
+    "symbol": "Símbolo",
+    "image": "Imagem",
+    "inflation": "Taxa de Inflação",
+    "created": "Criado por",
+    "total_supply": "Oferta Total",
+    "no_currency": "Nenhuma moeda personalizada para este servidor ainda."
+  },
+  "command.rank": {
+    "title": "📈 Seu Nível",
+    "level": "Nível Atual",
+    "xp": "Progresso de XP",
+    "total_xp": "XP Total",
+    "next_level": "XP para Próximo Nível",
+    "rank": "Ranking do Servidor",
+    "global_rank": "Ranking Global"
+  },
+  "command.xp-rank": {
+    "title": "⭐ Ranking de XP",
+    "rank": "Classificação",
+    "user": "Usuário",
+    "xp": "XP",
+    "level": "Nível"
+  },
+  "command.inventory": {
+    "title": "🎒 Seu Inventário",
+    "equipped": "**equipado**",
+    "how_to_use": "💡 Como usar",
+    "available": "Disponível",
+    "no_items": "Você não tem itens ainda.",
+    "empty": "Seu inventário está vazio. Compre itens na `/shop` ou complete missões!",
+    "item": "item",
+    "items": "itens",
+    "help": [
+      "Use `/profile-edit` para equipar itens do seu inventário e mostrar no seu perfil!",
+      "Itens podem ser comprados na loja ou ganhos completando missões.",
+      "Alguns itens são apenas cosméticos, outros dão bônus de XP ou coins!"
+    ],
+    "filter": {
+      "all": "todos",
+      "badge": "insígnias",
+      "wallpaper": "papéis de parede",
+      "color": "cores"
+    },
+    "type": {
+      "badge": "Insígnia",
+      "wallpaper": "Papel de Parede",
+      "color": "Cor de Layout"
+    },
+   "description": "**${length}** {items} {type}\n\nUse `/profile-edit` para equipar itens.",
+   "missions": "missões",
+   "mission": "missão"
+  },
+  "command.userinfo": {
+    "account": {
+      "discord": "Tempo de conta do Discord",
+      "created": "Tempo desde que você começou a usar o BankBot",
+      "joined": "Tempo desde que você entrou neste servidor"
+    },
+    "level": "Nível",
+    "xp": "XP",
+    "placeholder_coin": "Veja as moedas de servidores..."
+  },
+  "command.profile-edit": {
+    "help": [
+      "`/profile-edit bio <texto>` — mudar bio",
+      "`/profile-edit badge add <id>` — equipar badge",
+      "`/profile-edit badge remove <id>` — remover badge",
+      "`/profile-edit wallpaper <id>` — mudar wallpaper",
+      "`/profile-edit color <id>` — mudar cor do layout`"
+    ],
+    "error": {
+      "invalid_argument": "Argumento inválido para subcomando {sub}.",
+      "item_not_owned": "Você não possui este item.",
+      "bio_max_length": "Sua bio é muito longa. O limite é de {max} caracteres.",
+      "badge_max_length": "Você já tem o máximo de insígnias equipadas. O limite é de {max} insígnias."
+    },
+    "success": {
+      "badge": "Insígnia {item.name} {action} com sucesso!",
+      "profile_update": "Perfil atualizado com sucesso! {sub} {argument} adicionado."
+    }
+  },
+  "command.privacy": {
+    "button": {
+      "accept": "Aceitar",
+      "decline": "Recusar"
+    },
+    "title": "Política de Privacidade do BankBot",
+    "description": [
+      "**Ao usar o BankBot, você concorda que:**",
+      "",
+      "• Coletamos seu ID do Discord, servidor, XP, moedas e histórico de ações para funcionamento do bot.",
+      "• Seus dados **nunca** são vendidos ou compartilhados com terceiros.",
+      "• Propagandas exibidas são do próprio BankBot ou de patrocinadores — nunca rastreamos cliques.",
+      "• Você pode deletar todos os seus dados a qualquer momento com `/delete-data`.",
+      "• Dados são retidos por até **30 dias** após exclusão para fins de backup, depois são apagados permanentemente.",
+      "• Ao usar qualquer comando do BankBot, você confirma ter lido e concordado com estes termos.",
+      "",
+      "**Clique em Aceitar para continuar usando o BankBot.**"
+    ],
+    "accepted": "Política de privacidade aceita! Bem-vindo ao BankBot 🏦",
+    "declined": "Você recusou a política de privacidade. Você não poderá usar o BankBot até aceitar a política. Use /privacy para aceitar.",
+    "already_accepted": "Você já aceitou a política de privacidade. Use /privacy para ver os detalhes ou recusar.",
+    "missing_acceptance": "Você precisa aceitar a política de privacidade para usar o BankBot. Use /privacy para aceitar."
+  },
+  "command.delete_data": {
+    "confirm": "🗑️ Confirmar exclusão",
+    "cancel": "Cancelar",
+    "success": "Seus dados foram removidos do BankBot.",
+    "description": [
+        "Esta ação irá **permanentemente** remover:",
+        "• Seu perfil, XP e moedas em todos os servidores",
+        "• Seu inventário e badges equipados",
+        "• Histórico de missões e XP",
+        "• Plano de assinatura ativo",
+        "",
+        "**Esta ação não pode ser desfeita.**"
+      ],
+    "title": "⚠️ Deletar Dados do BankBot",
+    "canceled": "Exclusão de dados cancelada.",
+    "time_expired": "O tempo para confirmar a exclusão expirou. Por favor, tente novamente.",
+    "error": "Ocorreu um erro ao tentar deletar seus dados. Por favor, tente novamente mais tarde."
+  },
+  "command.missions": {
+    "title": "📋 Missões",
+    "completed": "✅ Missão **{id}** concluída! Colete a recompensa.",
+    "how_to_claim": "💡 Como reivindicar",
+    "help": "Use `/mission claim <id>` para coletar a recompensa de uma missão concluída.\nUse `/mission-rank` para ver seu ranking de conclusão de missões.",
+    "button": {
+      "extra": "Comprar +3 Missões ({coins})",
+      "claim": "🎁 Coletar #{id}",
+      "buymore": "✅ Todas as missões visíveis",
+      "unloked_missions": "+{count} missões desbloqueadas por {coins}!"
+    },
+    "description": "Complete missões diárias para ganhar XP e coins! Use `/mission` para ver suas missões atuais e coletar recompensas.",
+    "refresh_at_midnight": "As missões são atualizadas diariamente à 00:00 (UTC).",
+    "unsufficient_coins": "Coins insuficientes para comprar mais missões. Você precisa de {coins} {currency} para comprar mais missões.",
+    "mission_claimed": "Você já coletou a recompensa desta missão.",
+    "mission_not_complete": "Missão ainda não concluída.",
+    "embed": {
+      "fields": {
+        "slots": "📊 Slots",
+        "value": "**{newVisible.length}** / **{newShown}** visíveis  •  Base: ${BASE_MISSION_SLOTS} + Plano: {plan.missionSlotsBonus} + Extras: {newExtra}"
+      }
+    }
+  },
+  "command.mission_rank": {
+    "not_found": "Nenhuma missão foi concluída hoje neste servidor ainda."
+  },
+  "command.shop": {
+    "embed": {
+      "title": "🛒 Loja Diária",
+      "description": "Itens disponíveis para compra hoje. A loja é atualizada diariamente às 22:00 (UTC)."
+    },
+    "error": {
+      "no_items": "A loja está vazia no momento."
+    },
+    "success": "Item {id} comprado com sucesso!"
+  },
+  "command.exchange": {
+    "non_of_them": "Você precisa especificar pelo menos uma moeda para converter.",
+    "invalid_currency": "Moeda inválida: {currency}",
+    "same_currency": "Você não pode trocar a mesma moeda.",
+    "from": "De",
+    "to": "Para",
+    "insufficient_amount": "Quantidade insuficiente de {currency}: você tem {amount}, mas precisa de {required}.",
+    "exchange_success": "Troca bem-sucedida: {amount} {from} → {exchangedAmount} {to}",
+    "exchange_rate": "Taxa de câmbio: 1 {from} = {rate} {to}",
+    "note": {
+      "title": "📌 Nota",
+      "content": "Taxa calculada automaticamente com base na inflação de cada moeda."
+    },
+    "rate": "Taxa",
+    "error": {
+      "not_found": "Nenhuma das moedas foram encontradas"
+    }
+  },
+  "command.currency_info": {
+    "title": "💵 Informações da Moeda",
+    "name": "Nome",
+    "emoji": "Emoji",
+    "symbol": "Símbolo",
+    "image": "Imagem",
+    "server": "servidor",
+    "inflation": "Taxa de Inflação",
+    "variation": "Variação",
+    "created": "Criado por",
+    "createdAt": "Criado em",
+    "lastUpdate": "Última atualização",
+    "total_supply": "Oferta Total",
+    "error": {
+      "no_currency": "Nenhuma moeda personalizada para este servidor ainda."
+    }
+  },
+  "command.settings": {
+    "xp-notification": {
+      "channel": {
+        "set": "Canal {channel} configurado para receber notificações de `Level UP`",
+        "remove": "Canal {channel} não receberá mais notificações de `Level UP`"
+      },
+      "message": "Mensagem de level UP será: {message}\n\n-# sent by {server}"
+    },
+    "boost-config": {
+      "errors": {
+        "plan_required":"Você não tem o plano mínimo para esse comando."
+      },
+      "enabled": "O bônus de Boost foi ativado (x{bonus}).",
+      "disabled": "O bônus de Boost foi desativado."
+    },
+    "currency-create": {
+      "errors": {
+        "plan_required": "Você não tem o plano mínimo para esse comando.",
+        "no_created_emoji": "Não há emoji"
+      },
+      "embed": {
+        "title": "💰 Moeda Criada",
+        "fields": 
+          {
+            "name": "Nome"
+          }
+      }
+    },
+    "currency-edit": {
+      "errors": {
+        "plan_required":"Você não tem o plano mínimo para esse comando.",
+        "emoji_not_created": "Emoji não foi criado"
+      },
+      "success": "Atualizdo com sucesso"
+    }
+  }
+}
+

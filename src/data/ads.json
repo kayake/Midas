@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "active": true,
+    "intervalHours": 6,
+    "sponsorName": null,
+    "options": {
+      "content": "⭐ Vote no **BankBot** no top.gg e ganhe recompensas exclusivas!\nhttps://top.gg/bot/SEU_ID_AQUI"
+    }
+  },
+  {
+    "id": 2,
+    "active": true,
+    "intervalHours": 12,
+    "sponsorName": null,
+    "options": {
+      "embeds": [
+        {
+          "title": "💳 Conheça os planos BankBot",
+          "description": "De HSBC Free até UBS Elite — escolha o seu e desbloqueie recursos exclusivos.",
+          "color": 2949887,
+          "fields": [
+            { "name": "🏦 HSBC",     "value": "Grátis para sempre",  "inline": true },
+            { "name": "🏦 Barclays", "value": "Crie sua moeda",      "inline": true },
+            { "name": "🏦 Deutsche", "value": "XP customizável",     "inline": true },
+            { "name": "🏦 UBS",      "value": "Elite — tudo liberado","inline": true }
+          ],
+          "footer": { "text": "BankBot • Powered by UBS Elite Engine" }
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "active": false,
+    "intervalHours": 8,
+    "sponsorName": "Patrocinador Exemplo",
+    "options": {
+      "content": "📢 Patrocinado por **Patrocinador Exemplo** — confira em https://exemplo.com"
+    }
+  }
+]
