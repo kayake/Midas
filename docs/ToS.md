@@ -73,3 +73,16 @@ Os Termos podem ser modificados a qualquer momento. O uso contínuo implica acei
 8. Prevalência
 
 Esta versão em português prevalece sobre quaisquer traduções.
+
+9. Canais Oficiais de Suporte
+
+Para fins destes Termos, consideram-se “Canais Oficiais de Suporte”:
+
+- O servidor oficial do MIDAS no Discord:
+  [https://discord.gg/CwHXp7VYnc]
+
+- Qualquer canal explicitamente referenciado dentro da interface oficial do bot
+
+Nenhum outro canal, mensagem direta ou plataforma externa será considerado oficial.
+
+O MIDAS não se responsabiliza por interações realizadas fora dos Canais Oficiais de Suporte.
