@@ -11,5 +11,7 @@ Esse arquivo demonstra os comandos e suas respectivas categorias
 
 #### Economy
 
-- `/currency-info <coin>`
+- `/currency-info <coin>` -> mostra as informações da moeda escolhida
    - `coin` - string (letras) - Nome da moeda do servidor
+   - exemplos:
+       1. `/currency-info servidor_legal` - verifica as informações 
