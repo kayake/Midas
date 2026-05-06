@@ -38,6 +38,19 @@ Users shall not:
 - Exploit vulnerabilities or intentionally overload the system;
 - Conduct any form of technical abuse affecting system stability.
 
+4.4 Impersonation
+
+Users are strictly prohibited from:
+
+- Impersonating MIDAS staff, representatives, or any official entity associated with the Service;
+- Falsely claiming affiliation with MIDAS for the purpose of obtaining data, assets, or trust;
+- Misleading other users into believing they are interacting with authorized personnel.
+
+Such conduct constitutes a severe violation and will result in:
+
+- Immediate and permanent suspension (ban)
+- Additional measures at the sole discretion of the Service operator
+
 5. Enforcement
 
 Any violation of these Terms will result in:
