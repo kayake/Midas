@@ -75,6 +75,18 @@ You must:
 2. If unresolved or severe, report the incident to the  Trust & Safety system
 3. Where applicable, report the incident to your local law enforcement authorities
 
+6.2 Impersonation Warning
+
+Users must be aware that impersonation attempts may occur.
+
+MIDAS does not authorize any individual to request credentials, sensitive data, or privileged access outside official channels.
+
+If a user suspects impersonation:
+
+- Do not provide any information
+- Verify the identity through official channels
+- Report the incident immediately as described in Section 6.1
+
 7. Data Sharing
 
 No data is sold or shared with third parties, except where legally required.
