@@ -43,3 +43,27 @@ Esse arquivo demonstra os comandos e suas respectivas categorias
      - exemplos
           1. Veja os itens da loja: `/shop view`
           2. Compre um item da loja: `/shop 123`
+
+#### Serverinfo
+
+- `/serverinfo` - mostra as informações do servidor
+- `/settings >(xp-notification|boost-config|currency-edit|currency-create) {args}` - configura o servidor
+    - `>xp-notification {channel} {message}` - configura o sistema de notificação de level up
+      - `channel` - (canal) - canal a qual a notificação será enviada
+      - `message` - (texto) - mensagem que deve ser enviada ao avisar. Os seguintes placeholders existem:
+           - `{user.mention / user}` - menciona o usuário
+           - `{user.id}` - id do usuário
+           - `{guild.name}` - nome do servidor
+           - `{level.next}` -> próximo nível
+           - `{level.current}` -> nível atual
+           - `{level.current.xp}` -> xp do nível atual
+           - `{level.next.xp}` -> xp to próximo nivel
+           - `{xp.total / xp.current}` -> total de xp
+       - exemplos:
+            1. Para configurar a mensagem que você quer e o canal que gostaria de enviar: `/settings xp-notification #canal Parabéns por subir de nível, {user}!`
+            2. Também há a possibilidade de trocar APENAS o canal ou a mensagem
+   - `>boost-config <ativar?> [max_bonus]` - configura o bônus caso haja boost (ele também se baseia no nível do boost do servidor)
+       - `ativar?` - (sim|não) - decide se vai ativar ou não
+       - `max_bonux` - (número) - qual o bônus máximo que vai ser aplicado (caso nulo, será o máximo que o plano permite)
+   - `>currency-create` - cria a moeda do servidor
+       - `
