@@ -41,6 +41,19 @@ O usuário compromete-se a cumprir todas as leis aplicáveis e regras da platafo
 - Explorar vulnerabilidades ou sobrecarregar intencionalmente o sistema;
 - Executar qualquer forma de abuso técnico.
 
+4.4 Impersonação
+
+É estritamente proibido:
+
+- Se passar por membro da equipe MIDAS, representante ou qualquer entidade oficial relacionada ao Serviço;
+- Alegar falsamente afiliação ao MIDAS com o objetivo de obter dados, ativos ou confiança;
+- Induzir outros usuários a acreditarem que estão interagindo com pessoal autorizado.
+
+Tal conduta constitui violação grave e resultará em:
+
+- Banimento permanente e imediato
+- Medidas adicionais a critério exclusivo da administração
+
 5. Penalidades
 
 A violação destes Termos resultará em:
