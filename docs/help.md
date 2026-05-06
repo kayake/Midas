@@ -68,4 +68,4 @@ Esse arquivo demonstra os comandos e suas respectivas categorias
    - `>currency-create <nome> <símbolo> [imagem_url]` - cria a moeda do servidor
        - `nome` - (texto) - nome da moeda
        - `símbolo` - (texto) - o símbolo (por exemplo: $, $$, R$, €)
-       - `imagem_url` - (texto) - é o ícone da moeda. Será criado um emoji no servidor com esse ícono, caso não tenha espaço, o comando funcionará normalmente. Caso esse argumento seja nulo, será usado o ícone do servidor
+       - `imagem_url` - (texto) - é o ícone da moeda. Será criado um emoji no servidor com esse ícone, caso não tenha espaço, o comando funcionará normalmente. Caso esse argumento seja nulo, será usado o ícone do servidor
