@@ -2,7 +2,7 @@ MIDAS — POLÍTICA DE PRIVACIDADE
 Data de Vigência: 06/05/2026
 
 > [!NOTE]
-> English version: [Privacy-Policy](/translations/en-US/Privacy-Policy.md)
+> English version: [translations/en-US/Privacy-Policy.md](/docs/translations/en-US/Privacy-Policy.md)
 
 1. Aceitação
 

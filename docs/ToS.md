@@ -2,7 +2,7 @@ MIDAS — TERMOS DE USO
 Data de Vigência: 06/05/2026
 
 >[!NOTE]
-> Versão em inglês: [ToS-en-US.md](/translations/en-US/ToS.md)
+> English version: [translations/en-US/ToS.md](/docs/translations/en-US/ToS.md)
 
 1. Aceitação dos Termos
 

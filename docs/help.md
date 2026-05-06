@@ -3,13 +3,13 @@
 Esse arquivo demonstra os comandos e suas respectivas categorias.
 
 > [!IMPORTANT]
-> A versão em inglês existe, clique [aqui](/translations/en-US/help.md)
+> English version: [translations/en-US/help.md](/docs/translations/en-US/help.md)
 
 > [!NOTE]
-> `<>` - obrigatório
-> `[]` - opcional
-> `{}` - apenas obrigatório caso outro argumento seja opcional
-> `>` - sub-comando
+> `<>` - obrigatório;
+> `[]` - opcional;
+> `{}` - apenas obrigatório caso outro argumento seja opcional;
+> `>` - sub-comando;
 
 ---
 

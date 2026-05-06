@@ -3,10 +3,10 @@
 This file lists all commands and their respective categories.
 
 > [!NOTE]
-> `<>` - required
-> `[]` - optional
-> `{}` - required only when another argument is optional
-> `>` - sub-command
+> `<>` - required;
+> `[]` - optional;
+> `{}` - required only when another argument is optional;
+> `>` - sub-command;
 
 ---
 
