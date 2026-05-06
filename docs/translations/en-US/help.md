@@ -2,9 +2,6 @@
 
 This file lists all commands and their respective categories.
 
-> [!IMPORTANT]
-> The Portuguese version is available, click [here](/help.md)
-
 > [!NOTE]
 > `<>` - required
 > `[]` - optional
