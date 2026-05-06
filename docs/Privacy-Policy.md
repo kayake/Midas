@@ -117,3 +117,16 @@ Esta Política pode ser atualizada a qualquer momento.
 10. Prevalência
 
 Esta versão em português prevalece sobre quaisquer traduções.
+
+11. Canais Oficiais de Suporte
+
+Consideram-se “Canais Oficiais de Suporte”:
+
+- O servidor oficial do MIDAS no Discord:
+  [https://discord.gg/CwHXp7VYnc]
+
+- Canais explicitamente referenciados dentro do próprio MIDAS
+
+O usuário deve confiar apenas em comunicações originadas desses canais.
+
+Qualquer solicitação de dados sensíveis fora desses canais deve ser considerada fraudulenta.
