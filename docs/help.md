@@ -36,7 +36,7 @@ Esse arquivo demonstra os comandos e suas respectivas categorias
           2. Mostra o rank local de moeda global: `/leaderboard local Global Coin`
           3. Mostra o rank local de moeda local: `/leaderboard local Server Coin`
 
-- `shop >action {id}` - compre ou veja os itens da loja
+- `shop >(view|buy) {id}` - compre ou veja os itens da loja
      - `>view` - mostra os itens da loja
      - `>buy` - compra o tem da loja
        - `id` - (número) - id do item
