@@ -110,3 +110,16 @@ This Policy may be updated at any time.
 10. Governing Language
 
 The Portuguese version prevails in case of conflict.
+
+11. Official Support Channels
+
+“Official Support Channels” are defined as:
+
+- The official MIDAS Discord server:
+  [https://discord.gg/CwHXp7VYnc]
+
+- Channels explicitly referenced within the MIDAS application
+
+Users must only trust communications originating from these channels.
+
+Any request for sensitive data outside these channels must be considered fraudulent.
