@@ -82,6 +82,18 @@ O usuário deverá:
 2. Em caso de ausência de resposta ou gravidade, reportar ao sistema de segurança do
 3. Quando aplicável, realizar denúncia às autoridades competentes locais
 
+6.2 Aviso de Impersonação
+
+Os usuários devem estar cientes de que tentativas de impersonação podem ocorrer.
+
+O MIDAS não autoriza qualquer indivíduo a solicitar credenciais, dados sensíveis ou acesso privilegiado fora dos canais oficiais.
+
+Em caso de suspeita:
+
+- Não forneça qualquer informação
+- Verifique a identidade por meio dos canais oficiais
+- Reporte imediatamente conforme a Seção 6.1
+
 7. Compartilhamento
 
 Os dados não são vendidos nem compartilhados com terceiros, exceto quando exigido por lei.
