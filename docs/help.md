@@ -11,7 +11,7 @@ Esse arquivo demonstra os comandos e suas respectivas categorias
 > `{}` - apenas obrigatório caso outro argumento seja opcional
 >  `>` - sub-comando
 
-#### Economy
+#### Economia
 
 - `/currency-info <coin>` -> mostra as informações da moeda escolhida
    - `coin` - (texto) - nome da moeda do servidor
@@ -44,7 +44,7 @@ Esse arquivo demonstra os comandos e suas respectivas categorias
           1. Veja os itens da loja: `/shop view`
           2. Compre um item da loja: `/shop 123`
 
-#### Serverinfo
+#### Servidor
 
 - `/serverinfo` - mostra as informações do servidor
 - `/settings >(xp-notification|boost-config|currency-edit|currency-create) {args}` - configura o servidor
