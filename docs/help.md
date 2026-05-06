@@ -49,8 +49,8 @@ Esse arquivo demonstra os comandos e suas respectivas categorias
 - `/serverinfo` - mostra as informações do servidor
 - `/settings >(xp-notification|boost-config|currency-edit|currency-create) {args}` - configura o servidor
     - `>xp-notification {channel} {message}` - configura o sistema de notificação de level up
-      - `channel` - (canal) - canal a qual a notificação será enviada
-      - `message` - (texto) - mensagem que deve ser enviada ao avisar. Os seguintes placeholders existem:
+       - `channel` - (canal) - canal a qual a notificação será enviada
+       - `message` - (texto) - mensagem que deve ser enviada ao avisar. Os seguintes placeholders existem:
            - `{user.mention / user}` - menciona o usuário
            - `{user.id}` - id do usuário
            - `{guild.name}` - nome do servidor
@@ -65,5 +65,7 @@ Esse arquivo demonstra os comandos e suas respectivas categorias
    - `>boost-config <ativar?> [max_bonus]` - configura o bônus caso haja boost (ele também se baseia no nível do boost do servidor)
        - `ativar?` - (sim|não) - decide se vai ativar ou não
        - `max_bonux` - (número) - qual o bônus máximo que vai ser aplicado (caso nulo, será o máximo que o plano permite)
-   - `>currency-create` - cria a moeda do servidor
-       - `
+   - `>currency-create <nome> <símbolo> [imagem_url]` - cria a moeda do servidor
+       - `nome` - (texto) - nome da moeda
+       - `símbolo` - (texto) - o símbolo (por exemplo: $, $$, R$, €)
+       - `imagem_url` - (texto) - é o ícone da moeda. Será criado um emoji no servidor com esse ícono, caso não tenha espaço, o comando funcionará normalmente. Caso esse argumento seja nulo, será usado o ícone do servidor
