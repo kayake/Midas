@@ -70,3 +70,16 @@ These Terms may be updated at any time. Continued use constitutes acceptance of 
 8. Governing Language
 
 The Portuguese version prevails in case of conflict.
+
+9. Official Support Channels
+
+For the purposes of these Terms, “Official Support Channels” are defined as:
+
+- The official MIDAS Discord server:
+  [https://discord.gg/CwHXp7VYnc]
+
+- Any communication channel explicitly referenced within the official MIDAS application interface
+
+No other communication channels, direct messages, or third-party platforms shall be considered official.
+
+MIDAS shall not be held responsible for any interaction conducted outside these Official Support Channels.
