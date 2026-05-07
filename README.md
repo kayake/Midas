@@ -188,7 +188,8 @@ Inclui:
 
 # 📄 Licença
 
- Leia: [LICENSE](./LICENSE)
+Distribuído sob a licença MIT.
+Consulte [LICENSE](/LICENSE) para mais informações.
 
 ---
 
