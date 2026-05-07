@@ -442,6 +442,32 @@
       },
       "success": "Atualizdo com sucesso"
     }
+  },
+  "command.help": {
+    "title": "Ajuda",
+    "description": "Midas é um bot de Discord focado em engajamento, economia com sistemas avançados de ganho de nível.",
+    "fields": [
+      {
+        "name": "Meus comandos",
+        "value": "{help}",
+        "inline": true
+      },
+      {
+        "name": "Ficou com dúvidas ou quer fazer parte da comunidade? Acesse o nosso servidor do Discord",
+        "value": "{discord_server}",
+        "inline": true
+      },
+      {
+        "name": "Termos de Serviço",
+        "value": "{terms}",
+        "inline": true
+      },
+      {
+        "name": "Política de Privacidade",
+        "value": "{pp}",
+        "inline": true
+      }
+    ]
   }
 }
 

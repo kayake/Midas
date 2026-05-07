@@ -429,6 +429,32 @@
       },
       "success": "Updated successfully"
     }
+  },
+  "command.help": {
+    "title": "Help",
+    "description": "Midas is a Discord bot focused on engagement and economy with advanced leveling systems.",
+    "fields": [
+      {
+        "name": "My commands",
+        "value": "{base}/en-US/help.md",
+        "inline": true
+      },
+      {
+        "name": "Have questions or want to join the community? Visit our Discord server",
+        "value": "{discord_server}",
+        "inline": true
+      },
+      {
+        "name": "Terms of Service",
+        "value": "{base}/en-US/ToS.md",
+        "inline": true
+      },
+      {
+        "name": "Privacy Policy",
+        "value": "{base}/en-US/Privacy-Policy.md",
+        "inline": true
+      }
+    ]
   }
 }
 
