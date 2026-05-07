@@ -1,7 +1,6 @@
 import { InteractionResponse, SlashCommandBuilder } from "discord.js";
 import type { Command } from "../../shared/types";
-import { t } from "../../i18n";
-import { getUserPlan } from "../../modules/subscription/subscription.service";
+import { t, getUserLang } from "../../i18n";
 import { EmbedStructure } from "../../shared/EmbedStructure";
 import { commands, docs_translations, privacy_policy, support_server, ToS } from "../../shared/constants";
 
@@ -18,7 +17,7 @@ export default {
             "pt-BR": "Mostra os comandos, Termos de Serviço e Política de Privacidade"
     }),
     async execute(interaction): Promise<void> {
-        const lang = await getUserPlan(interaction.user.id)
+        const lang = await getUserLang(interaction.user.id)
         const help = t("command.help", lang)
 
         help.fields.forEach((i: { name: string, value: string, inline: string }) =>
