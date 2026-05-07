@@ -168,9 +168,6 @@ Tipos suportados:
 
 - Missões diárias
 - Missões sazonais
-- Objetivos de progressão
-- Atividades econômicas
-
 ---
 
 # 🔒 Segurança
