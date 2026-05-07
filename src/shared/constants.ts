@@ -45,3 +45,10 @@ export const BOT_TEAM_IDS: string[] = (process.env.BOT_TEAM_IDS ?? "")
   .filter(Boolean);
 
 export const BOT_OWNER_ID = process.env.BOT_OWNER_ID ?? "";
+
+export const github_repo = "https://github.com/kayake/Midas"
+export const docs_translations = "https://github.com/kayake/Midas/blob/main/docs/translations"
+export const ToS = "https://github.com/kayake/Midas/blob/main/docs/ToS.md"
+export const privacy_policy = "https://github.com/kayake/Midas/blob/main/docs/Privacy-Policy.md"
+export const commands = "https://github.com/kayake/Midas/blob/main/docs/help.md"
+export const support_server = "https://discord.gg/CwHXp7VYnc"
