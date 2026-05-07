@@ -19,6 +19,9 @@ Bot avançado de economia e progressão para Discord, focado em escalabilidade, 
 
 # 📖 Documentação
 
+> [!IMPORTANT]
+> LEIA
+
 ## 🇧🇷 Português (Versão Oficial)
 
 - [Help](./docs/help.md)
@@ -32,6 +35,7 @@ Bot avançado de economia e progressão para Discord, focado em escalabilidade, 
 - [Privacy Policy](./docs/translations/en-US/Privacy-Policy.md)
 - [Read Me](./docs/translations/en-US/README.md)
 
+> [!IMPORTANT]
 > A versão em português prevalece em caso de conflito entre traduções.
 
 ---
@@ -45,7 +49,7 @@ Bot avançado de economia e progressão para Discord, focado em escalabilidade, 
 - 🎯 Missões e objetivos sazonais
 - 🛒 Loja diária rotativa
 - 🎨 Sistema de personalização de perfil
-- 🌍 Suporte multilíngu
+- 🌍 Suporte multilinguagem
 ---
 
 # 🏗️ Arquitetura
@@ -66,86 +70,38 @@ src/
 
 ---
 
-🚀 Instalação
+# 🚀 Instalação
 
-1. Instalar dependências
+## 1. Instalar dependências
 
+```
 npm install
-
+```
 ---
 
-2. Configurar variáveis de ambiente
+## 2. Configurar variáveis de ambiente
 
+```
 cp .env.example .env
+```
 
 Configure suas credenciais no ".env".
 
 ---
 
-3. Gerar e migrar banco de dados
+## 3. Gerar e migrar banco de dados
 
+```
 npm run db:generate
 npm run db:migrate
+```
 
 ---
 
-4. Inicializar aplicação
 
-Desenvolvimento
+## 4. 🐳 Docker Compose (Recomendado para Produção)
 
-npm run dev
-
-Produção
-
-npm run build
-npm start
-
----
-
-🏦 Sistema Econômico
-
-O Midas possui um sistema econômico dinâmico com:
-
-- Moeda global e moedas por servidor
-- Rastreamento de inflação
-- Taxas de câmbio
-- Balanceamento automático
-- Personalização de moedas
-- Multiplicadores premium
-
-A inflação é calculada automaticamente com base no supply total e atividade do servidor.
-
-Administradores podem sobrescrever o comportamento da inflação conforme permissões do plano.
-
----
-
-🎯 Sistema de Missões
-
-As missões são totalmente dinâmicas e carregadas sem necessidade de reinicialização.
-
-Tipos suportados:
-
-- Missões diárias
-- Missões sazonais
-- Objetivos de progressão
-- Atividades econômicas
-
----
-
-🔒 Segurança
-
-O Midas foi projetado com arquitetura orientada à segurança.
-
-Inclui:
-
-- Logs operacionais
-- Auditoria de comandos
-
-Os canais oficiais de suporte e políticas de segurança estão documentados nos Termos de Uso e Política de Privacidade.
-
----
-
-🐳 Docker (Recomendado para Produção)
+```yaml
 
 services:
   postgres:
@@ -170,9 +126,68 @@ services:
 volumes:
   postgres_data:
 
+```
+
+## 5. Inicializar aplicação
+
+### 5.1 Desenvolvimento
+
+```
+npm run dev
+```
+
+### 5.2 Produção
+```
+
+npx tsx src/index.ts
+```
+---
+# Sistemas
+
+## 🏦 Sistema de Economia
+
+O Midas possui um sistema de economia dinâmico com:
+
+- Moeda global e moedas por servidor
+- Rastreamento de inflação
+- Taxas de câmbio
+- Balanceamento automático
+- Personalização de moedas
+- Multiplicadores premium
+
+> [!TIP]
+> A inflação é calculada automaticamente com base no supply total e atividade do servidor.
+
 ---
 
-📄 Licença
+## 🎯 Sistema de Missões
+
+As missões são totalmente dinâmicas e carregadas sem necessidade de reinicialização.
+
+Tipos suportados:
+
+- Missões diárias
+- Missões sazonais
+- Objetivos de progressão
+- Atividades econômicas
+
+---
+
+# 🔒 Segurança
+
+O Midas foi projetado com arquitetura orientada à segurança.
+
+Inclui:
+
+- Logs operacionais
+- Auditoria de comandos
+
+> [!NOTE]
+> Os canais oficiais de suporte e políticas de segurança estão documentados nos Termos de Uso e Política de Privacidade.
+
+---
+
+# 📄 Licença
 
 Este projeto é proprietário, salvo indicação explícita em contrário.
 
@@ -183,4 +198,3 @@ Redistribuição, revenda ou exploração comercial não autorizada são proibid
 <div align="center">Construído com foco em escalabilidade, segurança e modularidade.
 
 </div>
-```
