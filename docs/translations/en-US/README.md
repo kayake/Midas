@@ -164,8 +164,6 @@ Supported types:
 
 - Daily missions
 - Seasonal missions
-- Progression objectives
-- Economy-related activities
 
 ---
 
