@@ -62,6 +62,7 @@ src/
 ├── shared/           # Tipos, constantes e utilitários
 ├── data/             # Conteúdo dinâmico baseado em JSON
 └── security/         # Sistemas de segurança e auditoria
+```
 
 ---
 
