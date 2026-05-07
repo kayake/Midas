@@ -185,9 +185,8 @@ Includes:
 
 # 📄 License
 
-This project is proprietary unless explicitly stated otherwise.
-
-Unauthorized redistribution, resale, or commercial exploitation is prohibited.
+Distributed under the MIT license.
+See [LICENSE](/LICENSE) for more information. 
 
 ---
 
