@@ -191,7 +191,7 @@ Inclui:
 
 Este projeto é proprietário, salvo indicação explícita em contrário.
 
-Redistribuição, revenda ou exploração comercial não autorizada são proibidas.
+Redistribuição, revenda ou exploração comercial não autorizada são proibidas. ([LICENSE](./LICENSE))
 
 ---
 
