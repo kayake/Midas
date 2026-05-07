@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Banner -->
-<img src="/assets/banner.png" alt="Midas Banner" width="100%" />
+<img src="/assets/banner.jpg" alt="Midas Banner" width="100%" />
 
 # 🏦 Midas
 
