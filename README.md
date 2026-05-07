@@ -11,7 +11,6 @@ Bot avançado de economia e progressão para Discord, focado em escalabilidade, 
 [![Node.js](https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=node.js&logoColor=white)]()
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)]()
 [![Redis](https://img.shields.io/badge/Redis-7-DC382D?style=for-the-badge&logo=redis&logoColor=white)]()
-[![License](https://img.shields.io/badge/License-Proprietary-black?style=for-the-badge)]()
 
 </div>
 
@@ -189,9 +188,7 @@ Inclui:
 
 # 📄 Licença
 
-Este projeto é proprietário, salvo indicação explícita em contrário.
-
-Redistribuição, revenda ou exploração comercial não autorizada são proibidas. ([LICENSE](./LICENSE))
+ Leia: [LICENSE](./LICENSE)
 
 ---
 
