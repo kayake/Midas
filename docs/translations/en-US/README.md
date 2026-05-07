@@ -22,12 +22,6 @@ Advanced Discord economy and progression bot focused on scalability, automation,
 > [!IMPORTANT]
 > READ BEFORE USE
 
-## 🇧🇷 Portuguese (Official Version)
-
-- [Help](../../../help.md)
-- [Terms of Service](../../../ToS.md)
-- [Privacy Policy](../../../Privacy-Policy.md)
-
 ## 🇺🇸 English (Translated Version)
 
 - [Help](./help.md)
